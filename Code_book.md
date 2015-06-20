@@ -51,7 +51,7 @@ Test and train data is merged to the variable "subject".
 - "features.txt" - "features" (names of the mesurement data).
 
 The "colnames" command is used to set columns names of m_data fom the character vector.
-This vector is merged from "features" dat? and two characters "subject" and "activites").
+This vector is created from "features" datа and two characters "subject" and "activites".
 
 Use grep command to extract only mesurements of "std" and "mean" to the data frame "ex_data".
 
