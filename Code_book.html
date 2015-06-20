@@ -111,10 +111,31 @@ img {
 </div>
 <div id="reading-data" class="section level2">
 <h2>Reading data</h2>
-<p>“X_train.txt” is read to variable “x_train”. “X_test.txt” is read to variable “x_test”. Train and test data is merged to the variable “x”. “y_train.txt” - “y_train”. “y_test.txt” - “y_test”. Test and train activity data is merged to the variable “y”.</p>
-<p>“subject_train.txt” -“s_train”. “subject_test.txt” - “s_test”. Test and train data is merged to the variable “subject”. “X” (mesurements), “y” (activities) and “subject” is merged to the “m_data”. “features.txt” - “features” (names of the mesurement data). The “colnames” command is used to set columns names of m_data fom the character vector. This vector is merged from “features” datа and two characters “subject” and “activites”).</p>
+<ul>
+<li>“X_train.txt” is read to variable “x_train”.</li>
+<li>“X_test.txt” is read to variable “x_test”.</li>
+</ul>
+<p>Train and test data is merged to the variable “x”.</p>
+<ul>
+<li>“y_train.txt” - “y_train”.</li>
+<li>“y_test.txt” - “y_test”.</li>
+</ul>
+<p>Test and train activity data is merged to the variable “y”.</p>
+<ul>
+<li>“subject_train.txt” -“s_train”.</li>
+<li>“subject_test.txt” - “s_test”.</li>
+</ul>
+<p>Test and train data is merged to the variable “subject”.</p>
+<ul>
+<li>“X” (mesurements), “y” (activities) and “subject” is merged to the “m_data”.</li>
+<li>“features.txt” - “features” (names of the mesurement data).</li>
+</ul>
+<p>The “colnames” command is used to set columns names of m_data fom the character vector. This vector is merged from “features” dat? and two characters “subject” and “activites”).</p>
 <p>Use grep command to extract only mesurements of “std” and “mean” to the data frame “ex_data”.</p>
-<p>“activity_labels.txt” is read to the variable “labels”. Variable “lables” is used to set descriptive activity names in “ex_data” (data in activity column is changed).</p>
+<ul>
+<li>“activity_labels.txt” is read to the variable “labels”.</li>
+</ul>
+<p>Variable “lables” is used to set descriptive activity names in “ex_data” (data in activity column is changed).</p>
 <p>Names of “ex_data” is changed to more descriptive by “gsub” command.</p>
 <p>Create tidy data farme (“data”) by lapply command.</p>
 </div>

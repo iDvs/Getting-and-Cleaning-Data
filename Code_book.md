@@ -32,24 +32,31 @@ Each row identifies the subject who performed the activity for each window sampl
 
 ## Reading data ##
 
-"X_train.txt" is read to variable "x_train".
-"X_test.txt" is read to variable "x_test".
+- "X_train.txt" is read to variable "x_train".
+- "X_test.txt" is read to variable "x_test".
+
 Train and test data is merged to the variable "x".
-"y_train.txt" -  "y_train".
-"y_test.txt" - "y_test".
+
+- "y_train.txt" -  "y_train".
+- "y_test.txt" - "y_test".
+
 Test and train activity data is merged to the variable "y".
 
-"subject_train.txt" -"s_train".
-"subject_test.txt" - "s_test".
+- "subject_train.txt" -"s_train".
+- "subject_test.txt" - "s_test".
+
 Test and train data is merged to the variable "subject".
-"X" (mesurements), "y" (activities) and "subject" is merged to the "m_data".
-"features.txt" - "features" (names of the mesurement data).
+
+- "X" (mesurements), "y" (activities) and "subject" is merged to the "m_data".
+- "features.txt" - "features" (names of the mesurement data).
+
 The "colnames" command is used to set columns names of m_data fom the character vector.
-This vector is merged from "features" datà and two characters "subject" and "activites").
+This vector is merged from "features" dat? and two characters "subject" and "activites").
 
 Use grep command to extract only mesurements of "std" and "mean" to the data frame "ex_data".
 
-"activity_labels.txt" is read to the variable "labels".
+- "activity_labels.txt" is read to the variable "labels".
+
 Variable "lables" is used to set descriptive activity names in "ex_data" (data in activity column is changed).
 
 Names of "ex_data" is changed to more descriptive by "gsub" command.
